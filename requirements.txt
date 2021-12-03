@@ -1,5 +1,10 @@
 fastapi==0.70.0
-uvicorn
+uvicorn==0.15.0
 motor==2.5.1
 dnspython==2.1.0
-pymongo[srv]
+pymongo==3.12.1
+typing_extensions==4.0.0
+pydantic==1.8.2
+starlette==0.16.0
+click==8.0.3
+h11==0.12.0
