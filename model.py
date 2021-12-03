@@ -20,7 +20,7 @@ class NoticiasAnalisadas(BaseModel):
     url: str
     fecha: str
     numVistas: Optional[int]
-    category: Optional[list[str]]
+    category: Optional[list]
 
     class Config:
         orm_mode = True
